@@ -3,13 +3,13 @@ import '@/css/style.css';
 </script>
 <template>
   <div class="container">
-    <div class="left">
+    <div class="column">
       <h1>Built in Component</h1>
       <nuxt-img src="/img/sample.jpg" width="500" format="webp" />
       <nuxt-img src="/img/sample2.jpg" width="500" format="webp" />
       <nuxt-img src="/img/sample3.jpg" width="500" format="webp" />
     </div>
-    <div class="right">
+    <div class="column">
       <h1>Cloudinary Image</h1>
       <img
         width="500"
